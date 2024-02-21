@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="update actions">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/CIforItFriendly.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/projectPages/MainPage.java" afterDir="false" />
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="magic">
+      <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,42 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TryamMainPageTest">
+  <component name="RunManager" selected="TestNG.StartTest.startTest">
+    <configuration name="StartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.StartTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartTest.startTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shopdemo-alex-hot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.StartTest" />
+      <option name="METHOD_NAME" value="startTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TryamMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -118,42 +153,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryamMainPageTest.contackUsLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="contackUsLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryamMainPageTest.getInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shopdemo-alex-hot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="getInfo" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -178,17 +177,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryamMainPageTest.sellWithUsLinkTestV2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TryamMainPageTest.startTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TryamMainPageTest" />
-      <option name="METHOD_NAME" value="sellWithUsLinkTestV2" />
+      <option name="METHOD_NAME" value="startTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,19 +196,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.StartTest" />
+      <item itemvalue="TestNG.StartTest.startTest" />
+      <item itemvalue="TestNG.TryamMainPageTest.startTest" />
       <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
-      <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
-      <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
-      <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
       <item itemvalue="TestNG.TryamMainPageTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StartTest.startTest" />
+        <item itemvalue="TestNG.StartTest" />
+        <item itemvalue="TestNG.TryamMainPageTest.startTest" />
         <item itemvalue="TestNG.TryamMainPageTest" />
         <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
-        <item itemvalue="TestNG.TryamMainPageTest.sellWithUsLinkTestV2" />
-        <item itemvalue="TestNG.TryamMainPageTest.contackUsLink" />
-        <item itemvalue="TestNG.TryamMainPageTest.getInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708521714249</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="magic">
+      <created>1708529277342</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1708529277342</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +509,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="verify" />
     <MESSAGE value="update actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="update actions" />
+    <MESSAGE value="magic" />
+    <option name="LAST_COMMIT_MESSAGE" value="magic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
