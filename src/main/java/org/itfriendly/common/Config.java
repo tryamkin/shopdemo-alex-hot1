@@ -32,7 +32,7 @@ public class Config {
      * FIREFOX
      * ETC ...
      */
-    public static final String BROWSER_NAME = Browser.CHROME.getName();
+    public static final String BROWSER_NAME = Browser.FIREFOX.getName();
     /*
      for github action, он стартует на линуксе, и эта строка определяет операционку и далее хром запускается с ключём --headless (с запуском на вируальном мониторе)
      */
