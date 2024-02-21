@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="magic">
+    <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="simple">
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
@@ -106,7 +106,7 @@
       <recent name="base" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.StartTest.startTest">
+  <component name="RunManager" selected="TestNG.TryamMainPageTest">
     <configuration name="StartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shopdemo-alex-hot" />
       <extension name="coverage">
@@ -204,10 +204,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TryamMainPageTest" />
         <item itemvalue="TestNG.StartTest.startTest" />
         <item itemvalue="TestNG.StartTest" />
         <item itemvalue="TestNG.TryamMainPageTest.startTest" />
-        <item itemvalue="TestNG.TryamMainPageTest" />
         <item itemvalue="TestNG.TryamMainPageTest.linkSectionNumberOfElementsTest" />
       </list>
     </recent_temporary>
@@ -459,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708529277342</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="simple">
+      <created>1708530257930</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1708530257930</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -510,7 +517,8 @@
     <MESSAGE value="verify" />
     <MESSAGE value="update actions" />
     <MESSAGE value="magic" />
-    <option name="LAST_COMMIT_MESSAGE" value="magic" />
+    <MESSAGE value="simple" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

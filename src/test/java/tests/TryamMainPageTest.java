@@ -11,7 +11,7 @@ import static org.itfriendly.constants.Constatnt.LinksSectionNames.*;
 import static org.itfriendly.constants.Constatnt.NamesOfManePage.LOGONAME;
 import static org.itfriendly.constants.Constatnt.Urls.SHOP_DEMO_URL;
 
-@Ignore
+
 
 public class TryamMainPageTest extends BaseSeleniumTest {
 

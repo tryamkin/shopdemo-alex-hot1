@@ -47,9 +47,7 @@ public class Config {
             case "CHROME":
                 WebDriverManager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
-                options.addArguments("--headless", "--no-sandbox",
-                        "--disable-gpu", "--disable-dev-shm-usage",
-                        "--window-size=1920,1080", "--remote-allow-origins=*");
+                options.addArguments("--headless");
                 driver = new ChromeDriver(options);
                 System.out.println("Chrome");
 

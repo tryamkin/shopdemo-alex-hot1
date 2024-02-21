@@ -25,32 +25,32 @@ abstract public class BaseSeleniumTest {
 
 
 
-    //    @BeforeClass
-//    public void setUp() {
-
-//
-//        if (OS_NAME_FOR_GIT.equals("Linux")) {
-//            driver = gitRunConfig(driver, BROWSER_NAME);
-//        } else {
-//            driver = chooseDriver(driver, BROWSER_NAME);
-//        }
-//
-//        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
-//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
-//        BaseSeleniumPage.setDriver(driver);
-//
-//    }
+        @BeforeClass
+    public void setUp() {
 
 
-//    @AfterClass
-//    public void tearDown() {
-//        switch (BROWSER_NAME) {
-//            case "CHROME" -> {
-//                driver.close();
-//                driver.quit();
-//            }
-//            case "FIREFOX" -> driver.quit();
-//        }
-//    }
+        if (OS_NAME_FOR_GIT.equals("Linux")) {
+            driver = gitRunConfig(driver, BROWSER_NAME);
+        } else {
+            driver = chooseDriver(driver, BROWSER_NAME);
+        }
+
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
+        BaseSeleniumPage.setDriver(driver);
+
+    }
+
+
+    @AfterClass
+    public void tearDown() {
+        switch (BROWSER_NAME) {
+            case "CHROME" -> {
+                driver.close();
+                driver.quit();
+            }
+            case "FIREFOX" -> driver.quit();
+        }
+    }
 
 }
