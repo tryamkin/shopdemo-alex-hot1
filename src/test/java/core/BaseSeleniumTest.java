@@ -27,14 +27,16 @@ abstract public class BaseSeleniumTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+
         //   WebDriverManager.chromedriver().driverVersion("121").setup();
         if (OS_NAME_FOR_GIT.equals("Linux")){
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
             driver = new ChromeDriver(options);
             System.out.println(OS_NAME_FOR_GIT);
         }else {
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
             driver = new ChromeDriver();
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
