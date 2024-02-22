@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff30bdf2-1b0e-413c-a9e6-0d52a0d70501" name="Changes" comment="simple">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/common/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/itfriendly/constants/Constatnt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TryamMainPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +100,7 @@
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\java\tests\exaples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\!Teach\shopdemoAlexHot-with-Selenide\src\main\resources" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\java" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test" />
       <recent name="C:\!Teach\shopdemo-alex-hot\src\test\tests\exampples" />
@@ -527,6 +531,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/exampples/GooglePageTest.java</url>
           <line>58</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/core/BaseSeleniumTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.itfriendly.core.BaseSeleniumPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
@@ -21,26 +22,26 @@ import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
  */
 
 abstract public class BaseSeleniumTest {
-    protected WebDriver driver;
+    protected static WebDriver driver;
 
 
-
-        @BeforeClass
+    @BeforeClass
     public void setUp() {
-
-
-        if (OS_NAME_FOR_GIT.equals("Linux")) {
-            driver = gitRunConfig(driver, BROWSER_NAME);
-        } else {
-            driver = chooseDriver(driver, BROWSER_NAME);
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        //   WebDriverManager.chromedriver().driverVersion("121").setup();
+        if (OS_NAME_FOR_GIT.equals("Linux")){
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
+            driver = new ChromeDriver(options);
+            System.out.println(OS_NAME_FOR_GIT);
+        }else {
+            driver = new ChromeDriver();
+            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
+            driver.manage().window().maximize();
         }
-
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(PAGELOAD_WAIT));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLISITY_WAIT));
         BaseSeleniumPage.setDriver(driver);
-
     }
-
 
     @AfterClass
     public void tearDown() {
