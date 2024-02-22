@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v4
@@ -28,11 +28,13 @@ jobs:
         distribution: 'temurin'
         cache: maven
 
+    - name: Dir watch
+      run: pwd
+
     - name: Maven test
       run: mvn test
 
-    - name: Dir watch
-      run: pwd
+
 
     - name: Attach screenshots and reports
       uses: actions/upload-artifact@v4
