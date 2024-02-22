@@ -11,9 +11,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.time.Duration;
 
 import static org.itfriendly.common.Config.*;
+
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.IMPLISITY_WAIT;
 import static org.itfriendly.constants.Constatnt.TimeoutVariables.PAGELOAD_WAIT;
 
@@ -31,6 +33,8 @@ abstract public class BaseSeleniumTest {
         //   WebDriverManager.chromedriver().driverVersion("121").setup();
         if (OS_NAME_FOR_GIT.equals("Linux")){
             System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+            File file = new File("src/main/resources/file.txt");
+            System.out.println(file.getPath());
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
             driver = new ChromeDriver(options);

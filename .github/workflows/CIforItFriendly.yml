@@ -31,6 +31,9 @@ jobs:
     - name: Maven test
       run: mvn test
 
+    - name: Dir watch
+      run: pwd
+
     - name: Attach screenshots and reports
       uses: actions/upload-artifact@v4
       if: failure()
