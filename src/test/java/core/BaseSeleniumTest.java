@@ -33,7 +33,7 @@ abstract public class BaseSeleniumTest {
         //   WebDriverManager.chromedriver().driverVersion("121").setup();
         if (!OS_NAME_FOR_GIT.equals("Linux")){
           //  System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-           WebDriverManager.chromedriver().driverVersion("122").setup();
+           WebDriverManager.chromedriver().driverVersion("121").setup();
             File file = new File("src/main/resources/file.txt");
             System.out.println(file.getPath());
             ChromeOptions options = new ChromeOptions();
